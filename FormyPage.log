@@ -1,0 +1,18 @@
+2019-03-10 20:48:55  [Log4J.Log4jDemo] (main:) # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+2019-03-10 20:48:55  [Log4J.Log4jDemo] (main:) TEST Has Started
+2019-03-10 20:49:01  [Log4J.Log4jDemo] (main:) Appication is launched
+2019-03-10 20:49:01  [Log4J.Log4jDemo] (main:) Initial data entered
+2019-03-10 20:49:01  [Log4J.Log4jDemo] (main:) Navigated to Home Page
+2019-03-10 20:49:02  [Log4J.Log4jDemo] (main:) Scrolling successfully done
+2019-03-10 20:51:42  [Log4J.Log4jDemo] (main:) # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+2019-03-10 20:51:42  [Log4J.Log4jDemo] (main:) TEST Has Started
+2019-03-10 20:51:48  [Log4J.Log4jDemo] (main:) Appication is launched
+2019-03-10 20:51:49  [Log4J.Log4jDemo] (main:) Initial data entered
+2019-03-10 20:51:49  [Log4J.Log4jDemo] (main:) Navigated to Home Page
+2019-03-10 20:51:49  [Log4J.Log4jDemo] (main:) Scrolling successfully done
+2019-03-10 20:51:57  [Log4J.Log4jDemo] (main:) Auto complete action successfully done
+2019-03-10 20:51:58  [Log4J.Log4jDemo] (main:) Swtiching to Active Windows
+2019-03-10 20:51:58  [Log4J.Log4jDemo] (main:) Alert dismissed
+2019-03-10 20:51:59  [Log4J.Log4jDemo] (main:) Test completed successfully
+2019-03-10 20:51:59  [Log4J.Log4jDemo] (main:) error test
+2019-03-10 20:51:59  [Log4J.Log4jDemo] (main:) # # # # # # # # # # # # # # # # # # # # # # # # # # # 
