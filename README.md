@@ -315,3 +315,29 @@ System.out.printf("%-15s%03d%n",s1,x);
 The first column contains the String and is left justified using exactly  characters.
 The second column contains the integer, expressed in exactly  digits; if the original input has less than three digits, you must pad your output's leading digits with zeroes.
 ![image](https://user-images.githubusercontent.com/51070896/119314789-c584e480-bc92-11eb-8125-9ff2f36df4bb.png)
+		
+# Handling Nested Shadow Elements
+	driver.findElement(By.xpath("//extensions-manager")).getShadowRoot()
+				.findElement(By.cssSelector("cr-view-manager#viewManager extensions-item-list#items-list"))
+				.getShadowRoot().findElement(By.cssSelector("extensions-item#lajjpilliikppcbaghjehndpfdiiphbe"))
+				.getShadowRoot().findElement(By.cssSelector("cr-toggle#enableToggle")).getShadowRoot()
+				.findElement(By.cssSelector("span#knob")).click()
+		
+		or 
+	WebElement host1 = driver.findElement(By.xpath("//extensions-manager"));
+	SearchContext context1 = host1.getShadowRoot();
+	Thread.sleep(1000);
+
+	WebElement viewManager = context1.findElement(By.cssSelector("cr-view-manager#viewManager extensions-item-list#items-list"));
+	SearchContext context2 = viewManager.getShadowRoot();
+	Thread.sleep(1000);
+	WebElement addin = context2.findElement(By.cssSelector("extensions-item#lajjpilliikppcbaghjehndpfdiiphbe"));
+	SearchContext context3 = addin.getShadowRoot();
+	Thread.sleep(1000);
+
+	WebElement toggleBtn = context3.findElement(By.cssSelector("cr-toggle#enableToggle"));
+	SearchContext context4 = toggleBtn.getShadowRoot();
+	Thread.sleep(1000);
+
+	WebElement knob = context4.findElement(By.cssSelector("span#knob"));
+	knob.click();
