@@ -240,6 +240,7 @@ Automate Captcha..general issue for all automation.
 Selenium cannot be used for automation flash objects-for ex: You tube videos. SIKULI can be used
 
 # AUTO IT -
+```
  Is a third party software used for automating windows based appliations that can be integrated with selenium
     1 	Autoit.au3 compile Autoit.au3 script to generate autoit.exe and call it like below.
     2 	ControlFocus("Open","",1148)
@@ -248,6 +249,7 @@ Selenium cannot be used for automation flash objects-for ex: You tube videos. SI
     5 	ControlClick("Open","",1148)
     6 	Runtime.getRuntime().exec(System.getProperty("user.dir")+"/src/com/uploadfile/Upload.exe");
     7 
+```
 # SIKULI
 
 SIKULI/SIKULIXAPI- is a third party automation tool that recognizes objects through image based recognition.
